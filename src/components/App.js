@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path='/*'
+            path='/'
             element={currentUser !== null ? <DashBoard /> : <Login />}
           />
           <Route
