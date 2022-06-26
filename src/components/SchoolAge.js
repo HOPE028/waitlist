@@ -267,7 +267,7 @@ function EditChild(props) {
       finalParentsContactInfo = props.child.parentsContactInfo
     else finalParentsContactInfo = parentsContactInfo
 
-    if (age === '') finalAge = props.child.age
+    if (age === -1) finalAge = props.child.age
     else finalAge = age
 
     try {

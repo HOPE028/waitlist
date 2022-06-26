@@ -14,14 +14,14 @@ export default function Oaklawn() {
               src='OaklawnImages/kidHorizontal2.jpg'
             />
             <div className='text-about-us'>
-              <h2 className='title title-about-us'>About Us</h2>
+              <h2 className='title-oaklawn title-about-us'>About Us</h2>
               <p>
                 <b>Oak Lawn Child Care</b> is a home child care center situated
                 in Bridgewater, Winnipeg, Manitoba. We are fully licensed for 12
                 children. We operate with two staff members at all times and
                 take care of children including Infants, Toddlers, Preschoolers,
                 Pre-K and school students with our Before and After School
-                Program. For Availability please check our
+                Program. For Availability please check our <span> </span>
                 <a className='wait' href='/waitlist'>
                   WAITLIST
                 </a>
@@ -32,11 +32,11 @@ export default function Oaklawn() {
         </div>
         <div className='location-marker' id='news'></div>
         <div className='container-news'>
-          <h2 className='title title-container-news'>Important News</h2>
+          <h2 className='title-oaklawn title-container-news'>Important News</h2>
           <div className='text-news'>
             <p>
               &bull; Spots are all taken! If you would like to be added to the
-              waiting list, click on
+              waiting list, click on <span> </span>
               <a className='links' href='#contact'>
                 WAITING LIST
               </a>
