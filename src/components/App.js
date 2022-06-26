@@ -6,6 +6,7 @@ import Infant from './Infant'
 import PreSchool from './PreSchool'
 import SchoolAge from './SchoolAge'
 import ForgotPassword from './ForgotPassword'
+import Oaklawn from './Oaklawn'
 import { AuthProvider } from '../contexts/AuthContext'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
@@ -17,10 +18,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route
-            path='/waitlist/*'
-            element={currentUser !== null ? <DashBoard /> : <Login />}
-          />
+          <Route path='/' element={<Oaklawn />} />
+
+          <Route path='/*' element={<Oaklawn />} />
           <Route
             path='/waitlist'
             element={currentUser !== null ? <DashBoard /> : <Login />}
