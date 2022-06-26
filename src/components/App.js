@@ -18,6 +18,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
+            path='/*'
+            element={currentUser !== null ? <DashBoard /> : <Login />}
+          />
+          <Route
             path='/waitlist'
             element={currentUser !== null ? <DashBoard /> : <Login />}
           />
