@@ -19,7 +19,7 @@ export default function Login() {
     try {
       setLoading(true)
       await login(email, password)
-      navigate('/waitlist')
+      navigate('/')
     } catch (error) {
       console.log(error)
       setError('Failed To Log In')

@@ -16,7 +16,7 @@ export default function DashBoard() {
     setError('')
     try {
       logout()
-      navigate('/waitlist/login')
+      navigate('/login')
     } catch (error) {
       setError('Could not log out')
     }

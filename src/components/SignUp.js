@@ -41,7 +41,7 @@ export default function SignUp() {
         sex: 'Male',
       })
 
-      navigate('/waitlist')
+      navigate('')
     } catch (error) {
       console.log(error)
       setError('Failed To Create An Account')

@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import { useAuth } from '../contexts/AuthContext'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 
 export default function ForgotPassword() {
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
   const [loading, setLoading] = useState(false)
-  let navigate = useNavigate()
   const [email, setEmail] = useState('')
   const { resetPassword } = useAuth()
 
