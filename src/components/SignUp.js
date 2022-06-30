@@ -118,7 +118,7 @@ export default function SignUp() {
           </button>
         </div>
         <h4 className='link'>
-          Already have an accoount? <Link to='/waitlist/login'>Log In</Link>
+          Already have an accoount? <Link to='/login'>Log In</Link>
         </h4>
       </div>
     </div>

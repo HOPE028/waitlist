@@ -28,7 +28,7 @@ export default function Navbar() {
           </button>
           <ul className={`navbar_menu ${showToolBar && 'active'}`}>
             <li className='navbar_btn'>
-              <a href='/waitlist' className='button'>
+              <a href='/' className='button'>
                 WAITLIST
               </a>
             </li>

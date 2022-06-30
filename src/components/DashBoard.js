@@ -68,15 +68,15 @@ export default function DashBoard() {
               age for all children at least 6 years old.{' '}
             </h3>
             <h3>Start by selecting one of the waitlists!</h3>
-            <Link to='/waitlist/infant'>
+            <Link to='/infant'>
               <h3 className='inline link'>Infant&nbsp;Waitlist</h3>
             </Link>
             {'   '}
-            <Link to='/waitlist/preschool'>
+            <Link to='/preschool'>
               <h3 className='inline link'>Preschool&nbsp;Waitlist</h3>
             </Link>
             {'   '}
-            <Link to='/waitlist/school-age'>
+            <Link to='/school-age'>
               <h3 className='inline link'>School&nbsp;Age&nbsp;Waitlist</h3>
             </Link>
           </div>

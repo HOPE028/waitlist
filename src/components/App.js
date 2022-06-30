@@ -6,7 +6,6 @@ import Infant from './Infant'
 import PreSchool from './PreSchool'
 import SchoolAge from './SchoolAge'
 import ForgotPassword from './ForgotPassword'
-import Oaklawn from './Oaklawn'
 import { AuthProvider } from '../contexts/AuthContext'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
@@ -18,29 +17,26 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Oaklawn />} />
-
-          <Route path='/*' element={<Oaklawn />} />
           <Route
-            path='/waitlist'
+            path='/*'
             element={currentUser !== null ? <DashBoard /> : <Login />}
           />
           <Route
-            path='/waitlist/infant'
+            path='/infant'
             element={currentUser !== null ? <Infant /> : <Login />}
           />
           <Route
-            path='/waitlist/preschool'
+            path='/preschool'
             element={currentUser !== null ? <PreSchool /> : <Login />}
           />
           <Route
-            path='waitlist/school-age'
+            path='/school-age'
             element={currentUser !== null ? <SchoolAge /> : <Login />}
           />
 
-          <Route path='waitlist/signup' element={<SignUp />} />
-          <Route path='waitlist/login' element={<Login />} />
-          <Route path='waitlist/forgot-password' element={<ForgotPassword />} />
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/forgot-password' element={<ForgotPassword />} />
         </Routes>
       </BrowserRouter>
     </div>

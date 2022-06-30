@@ -72,7 +72,7 @@ export default function ForgotPassword() {
           </button>
         </div>
         <h4 className='link'>
-          Know Your Password? <Link to='/waitlist/login'>Log In</Link>
+          Know Your Password? <Link to='/login'>Log In</Link>
         </h4>
       </div>
     </div>

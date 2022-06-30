@@ -6,7 +6,7 @@ export default function DashBoardLink() {
     <div>
       {' '}
       <button className='top-left-90'>
-        <Link to='/waitlist'>
+        <Link to='/'>
           <h4 id='dashboard-link'>DashBoard</h4>
         </Link>
       </button>

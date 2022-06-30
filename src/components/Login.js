@@ -76,10 +76,10 @@ export default function Login() {
           </button>
         </div>
         <h4 className='link'>
-          <Link to='/waitlist/forgot-password'>Forgot Password?</Link>
+          <Link to='/forgot-password'>Forgot Password?</Link>
         </h4>
         <h4 className='link'>
-          Already have an accoount? <Link to='/waitlist/signup'>Sign Up</Link>
+          Already have an accoount? <Link to='/signup'>Sign Up</Link>
         </h4>
       </div>
     </div>
