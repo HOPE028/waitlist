@@ -120,6 +120,10 @@ export default function PreSchool() {
       try {
         await deleteDoc(childRef)
         await deleteDoc(childRefUnderUser)
+
+        await updateDoc(statsCollectionRef, {
+          size: increment(-1),
+        })
       } catch (error) {
         console.log(error)
         return
@@ -141,7 +145,6 @@ export default function PreSchool() {
               currentUserInfo._document.data.value.mapValue.fields.displayName
                 .stringValue}
           </h3>
-          {/* <button onClick={() => console.log(stat)}>Data</button> */}
           <h1>Preschool Waitlist</h1>
           {stat && (
             <h2>

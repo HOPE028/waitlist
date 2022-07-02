@@ -120,6 +120,10 @@ export default function SchoolAge() {
       try {
         await deleteDoc(childRef)
         await deleteDoc(childRefUnderUser)
+
+        await updateDoc(statsCollectionRef, {
+          size: increment(-1),
+        })
       } catch (error) {
         console.log(error)
         return
