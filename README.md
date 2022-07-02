@@ -31,4 +31,17 @@ Hosted App: https://oaklawnchildcare-waitlist.netlify.app/
 19. The window will ask if you are sure you would like to delete the child's information, you can click yes if you are.
 20. To return to the dashboard, either click on the dashboard button on the top-left portion of the screen or click on the 'WAITLIST' button in the navigation bar at the very top of the page. (On mobile devices, you must first open the drop-down menu by clicking on the three bars at the top-left corner of the screen.  
 
+## Feautures
+- A fluid and responsive design for any screen dimensions.
+- Lots of built in security to ensure users dont accidentally (or purposely) create a bug or fill in all required fields. 
+- Certain pages are locked and are only accessible if the instance meets certain criterias (such as being logged in).
+
+## Dependencies
+- React.js
+- React-Router-Dom
+- Firebase
+- Firestore
+
+## What the app looks like:
+
 *Documentation still in progress*
