@@ -58,14 +58,14 @@ export default function DashBoard() {
           <div className='margin-top'>
             <h3>
               Here you can view waitlist sizes for different ages, register your
-              child under one, and get up to date information on what place you
-              are in the waitlist.
+              child under one, and get up-to-date information on what place you
+              are on the waitlist.
             </h3>
             <h3>
-              There are three different waitlist due to the differnt spots
+              There are three different waitlists due to the different spots
               available for different ages. The infant waitlist is for children
-              under 3 years of age. Preschool for ages 2-5 and finally school
-              age for all children at least 6 years old.{' '}
+              under 2 years of age. Preschool for ages 2-5 and finally school
+              age for children between 6 and 12 years old.{' '}
             </h3>
             <h3>Start by selecting one of the waitlists!</h3>
             <Link to='/infant'>

@@ -34,8 +34,14 @@ function App() {
             element={currentUser !== null ? <SchoolAge /> : <Login />}
           />
 
-          <Route path='/signup' element={<SignUp />} />
-          <Route path='/login' element={<Login />} />
+          <Route
+            path='/signup'
+            element={currentUser !== null ? <DashBoard /> : <SignUp />}
+          />
+          <Route
+            path='/login'
+            element={currentUser !== null ? <DashBoard /> : <Login />}
+          />
           <Route path='/forgot-password' element={<ForgotPassword />} />
         </Routes>
       </BrowserRouter>
