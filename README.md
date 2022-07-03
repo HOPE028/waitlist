@@ -33,7 +33,7 @@ Hosted App: https://oaklawnchildcare-waitlist.netlify.app/
 
 ## Feautures
 - A fluid and responsive design for any screen dimensions.
-- Lots of built in security to ensure users dont accidentally (or purposely) create a bug or fill in all required fields. 
+- Lots of built in security to ensure users dont accidentally (or purposely) create a bug. 
 - Certain pages are locked and are only accessible if the instance meets certain criterias (such as being logged in).
 
 ## Dependencies
