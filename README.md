@@ -43,5 +43,8 @@ Hosted App: https://oaklawnchildcare-waitlist.netlify.app/
 - Firestore
 
 ## What the app looks like:
-
-*Documentation still in progress*
+![alt text](https://github.com/HOPE028/waitlist/blob/main/Waitlist_ScreenShots/Log%20In.png)
+![alt text](https://github.com/HOPE028/waitlist/blob/main/Waitlist_ScreenShots/Sign%20up.png)
+![alt text](https://github.com/HOPE028/waitlist/blob/main/Waitlist_ScreenShots/Dashboard.png)
+![alt text](https://github.com/HOPE028/waitlist/blob/main/Waitlist_ScreenShots/Infant%20waitlist.png)
+![alt text](https://github.com/HOPE028/waitlist/blob/main/Waitlist_ScreenShots/Registering%20a%20child.png)
