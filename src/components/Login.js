@@ -79,7 +79,7 @@ export default function Login() {
           <Link to='/forgot-password'>Forgot Password?</Link>
         </h4>
         <h4 className='link'>
-          Already have an accoount? <Link to='/signup'>Sign Up</Link>
+          Already have an account? <Link to='/signup'>Sign Up</Link>
         </h4>
       </div>
     </div>
