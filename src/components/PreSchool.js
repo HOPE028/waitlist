@@ -14,6 +14,7 @@ import {
   increment,
   deleteDoc,
 } from 'firebase/firestore'
+import CorrectOrder from './CorrectOrder'
 
 export default function PreSchool() {
   const { currentUser } = useAuth()
@@ -128,6 +129,8 @@ export default function PreSchool() {
         console.log(error)
         return
       }
+
+      CorrectOrder('PreSchool', waitList, child.order)
 
       window.location.reload()
     }

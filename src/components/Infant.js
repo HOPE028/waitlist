@@ -14,6 +14,7 @@ import {
   deleteDoc,
 } from 'firebase/firestore'
 import DashBoardLink from './DashBoardLink'
+import CorrectOrder from './CorrectOrder'
 
 export default function Infant() {
   const { currentUser } = useAuth()
@@ -128,6 +129,8 @@ export default function Infant() {
         console.log(error)
         return
       }
+
+      CorrectOrder('Infants', waitList, child.order)
 
       window.location.reload()
     }
