@@ -1,7 +1,7 @@
 # Waitlist - [Live App](https://oaklawnchildcare-waitlist.netlify.app/)
 ---
 
-The Waitlist app was created to help the Oak Lawn Child Care have an online waitlist to register future children. The daycare can manage and view their waitlist while giving parents a place to have the most up to date information on it as well as having the ability to add their own children to it. The app consists of user authentication.  
+A prevalent problem affecting childcare in Manitoba is the lack of spaces in daycare and the lack of order and transparency regarding when someone's child is admitted into a daycare or center. To tackle this problem, I worked alongside Oak Lawn Child Care to create a beautiful website powered by a complex, multi-page waitlist. Upon signing in/up to the waitlist, one can add their children into the waitlist's different age sections. The waitlist gives them the exact number of children already on the waitlist, their child's order in it, and gives the parent the ability to provide information regarding their child in advance, speeding up the childcare process. At this current time, over 116 parents have signed up for the waitlist and 93 children are actively on the waitlist.
 
 ## How to run
 1. Either fork or download the app and open the folder in the cli
