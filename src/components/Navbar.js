@@ -8,13 +8,13 @@ export default function Navbar() {
     <div>
       <nav className='navbar'>
         <div className='navbar_container'>
-          <a href='https://oaklawnchildcare.ca' id='navbar_logo'>
+          <a href='https://oldfieldchildcare.netlify.app/' id='navbar_logo'>
             <img
               src={logo}
-              alt='Oak Lawn Child Care Logo'
+              alt='Old Field Child Care Logo'
               className='navbar_pic'
             />
-            Oak Lawn Child Care
+            Old Field Child Care
           </a>
           <button onClick={() => setShowToolBar(!showToolBar)}>
             <div
@@ -33,20 +33,26 @@ export default function Navbar() {
               </a>
             </li>
             <li className='navbar_btn'>
-              <a href='https://oaklawnchildcare.ca/#news' className='button'>
+              <a
+                href='https://oldfieldchildcare.netlify.app/#news'
+                className='button'
+              >
                 NEWS
               </a>
             </li>
             <li className='navbar_btn'>
               <a
-                href='https://oaklawnchildcare.ca/#photoGallery'
+                href='https://oldfieldchildcare.netlify.app/#photoGallery'
                 className='button'
               >
                 PHOTO&nbsp;GALLERY
               </a>
             </li>
             <li className='navbar_btn'>
-              <a href='https://oaklawnchildcare.ca/#contact' className='button'>
+              <a
+                href='https://oldfieldchildcare.netlify.app/#contact'
+                className='button'
+              >
                 CONTACT
               </a>
             </li>
